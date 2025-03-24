@@ -1,10 +1,10 @@
 import { Router } from "express";
-import userRouter from "./user.js";
 import PostRouter from "./post.js";
+import intelcore3Router from "./intelcore3.js";
 
 
 const Root = Router()
-Root.use('/users', userRouter)
+Root.use('/users', intelcore3Router)
 Root.use('/post',PostRouter)
 
 

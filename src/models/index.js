@@ -1,2 +1,5 @@
 export * from "./user.js"
-export * from "./post.js"
+export * from "./intelcore3.js"
+export * from "./intelcore4.js"
+export * from "./intelcore5.js"
+export * from "./amd.js"
